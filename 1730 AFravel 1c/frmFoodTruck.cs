@@ -59,31 +59,5 @@ namespace _1730_AFravel_1c1
         {
             this.Close();
         }
-
-
-
-
-
-        // I have no idea why all these methods were created. I re-created the project from scratch and they appeared again.
-        // I do not know what I am doing to cause this.
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

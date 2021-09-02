@@ -94,7 +94,6 @@ namespace _1730_AFravel_1c1
             this.txtHamburgersSubtotal.TabIndex = 7;
             this.txtHamburgersSubtotal.TabStop = false;
             this.txtHamburgersSubtotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.txtHamburgersSubtotal.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label3
             // 
@@ -104,7 +103,6 @@ namespace _1730_AFravel_1c1
             this.label3.Size = new System.Drawing.Size(51, 13);
             this.label3.TabIndex = 6;
             this.label3.Text = "x $5.00 =";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // txtHamburgers
             // 
@@ -114,7 +112,6 @@ namespace _1730_AFravel_1c1
             this.txtHamburgers.TabIndex = 5;
             this.txtHamburgers.Text = "0";
             this.txtHamburgers.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.txtHamburgers.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // label4
             // 
@@ -124,7 +121,6 @@ namespace _1730_AFravel_1c1
             this.label4.Size = new System.Drawing.Size(67, 13);
             this.label4.TabIndex = 4;
             this.label4.Text = "Hamburgers:";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // btnCalculate
             // 
