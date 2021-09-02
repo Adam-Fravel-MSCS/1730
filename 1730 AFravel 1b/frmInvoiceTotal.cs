@@ -24,7 +24,7 @@ namespace _1730_AFravel_1b
             //txtTotal.TabIndex = 5;
             //txtDiscountAmt.Text = txtDiscountPercent.Text;
 
-            txtDiscountAmt.Text = (Convert.ToDecimal(txtSubtotal.Text) * Convert.ToDecimal(txtDiscountPercent.Text) / 100).ToString("0.00");
+            txtDiscountAmt.Text = (Convert.ToDecimal(txtSubtotal.Text) * Convert.ToDecimal(txtDiscountPercent.Text) / 100) .ToString("0.00");
 
             txtTotal.Text = (Convert.ToDecimal(txtSubtotal.Text) - Convert.ToDecimal(txtDiscountAmt.Text)).ToString("0.00");
         }
