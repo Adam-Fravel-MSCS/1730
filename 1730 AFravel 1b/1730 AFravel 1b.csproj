@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CEA7746A-19A8-43FB-912B-B2EA6FB3FC84}</ProjectGuid>
+    <ProjectGuid>{765475D4-000C-48DA-BCE0-8396DD1951D1}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>_1730_AFravel_1c1</RootNamespace>
-    <AssemblyName>1730 AFravel 1c1</AssemblyName>
+    <RootNamespace>_1730_AFravel_1b</RootNamespace>
+    <AssemblyName>1730 AFravel 1b</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmFoodTruck.cs">
+    <Compile Include="frmInvoiceTotal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmFoodTruck.Designer.cs">
-      <DependentUpon>frmFoodTruck.cs</DependentUpon>
+    <Compile Include="frmInvoiceTotal.Designer.cs">
+      <DependentUpon>frmInvoiceTotal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmFoodTruck.resx">
-      <DependentUpon>frmFoodTruck.cs</DependentUpon>
+    <EmbeddedResource Include="frmInvoiceTotal.resx">
+      <DependentUpon>frmInvoiceTotal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

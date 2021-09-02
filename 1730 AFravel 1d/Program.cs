@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace _1730_AFravel_1c1
+namespace _1730_AFravel_1d
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace _1730_AFravel_1c1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmFoodTruck());
+            Application.Run(new frmCurrencyConverter());
         }
     }
 }

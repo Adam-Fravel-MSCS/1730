@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace _1730_AFravel_1c1.Properties
+namespace _1730_AFravel_1d.Properties
 {
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
@@ -43,7 +43,7 @@ namespace _1730_AFravel_1c1.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("_1730_AFravel_1c1.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("_1730_AFravel_1d.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

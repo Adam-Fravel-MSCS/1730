@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{94BE5899-9EC7-4B38-B61D-8122319FBB3F}</ProjectGuid>
+    <ProjectGuid>{7E8FF05D-7877-4D49-AE18-7A4AB4F278BA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>_1730_AFravel_1b</RootNamespace>
-    <AssemblyName>1730 AFravel 1b</AssemblyName>
+    <RootNamespace>_1730_AFravel_1d</RootNamespace>
+    <AssemblyName>1730 AFravel 1d</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmInvoiceTotal.cs">
+    <Compile Include="frmCurrencyConverter.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmInvoiceTotal.Designer.cs">
-      <DependentUpon>frmInvoiceTotal.cs</DependentUpon>
+    <Compile Include="frmCurrencyConverter.Designer.cs">
+      <DependentUpon>frmCurrencyConverter.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmInvoiceTotal.resx">
-      <DependentUpon>frmInvoiceTotal.cs</DependentUpon>
+    <EmbeddedResource Include="frmCurrencyConverter.resx">
+      <DependentUpon>frmCurrencyConverter.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -78,6 +78,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="flags\Australia-Flag-icon.png" />
+    <Content Include="flags\Bhutan-Flag-icon.png" />
+    <Content Include="flags\Costa-Rica-Flag-icon.png" />
+    <Content Include="flags\European-Union-Flag-icon.png" />
+    <Content Include="flags\United-States-Flag-icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
