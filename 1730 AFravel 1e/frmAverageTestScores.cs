@@ -9,32 +9,32 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace _1730_AFravel_1e
-{
-    public partial class frmAverageTestScores : Form
     {
-        public frmAverageTestScores()
+    public partial class frmAverageTestScores : Form
         {
+        public frmAverageTestScores()
+            {
             InitializeComponent();
-        }
+            }
 
         private void btnCalculate_Click(object sender, EventArgs e)
-        {
-             txtAverage.Text = (
-            (Convert.ToDecimal(txtTest1.Text) + Convert.ToDecimal(txtTest2.Text) + Convert.ToDecimal(txtTest3.Text))
-            /3).ToString("00.00");
-        }
+            {
+            txtAverage.Text = (
+           (Convert.ToDecimal(txtTest1.Text) + Convert.ToDecimal(txtTest2.Text) + Convert.ToDecimal(txtTest3.Text))
+           / 3).ToString("00.00");
+            }
 
         private void btnClear_Click(object sender, EventArgs e)
-        {
+            {
             txtTest1.Text = "0";
             txtTest2.Text = "0";
             txtTest3.Text = "0";
             txtAverage.Text = "";
-        }
+            }
 
         private void btnExit_Click(object sender, EventArgs e)
-        {
+            {
             this.Close();
+            }
         }
     }
-}
