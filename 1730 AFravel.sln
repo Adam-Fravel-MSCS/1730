@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1730 AFravel 1d", "1730 AFr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1730 AFravel 1e", "1730 AFravel 1e\1730 AFravel 1e.csproj", "{5D196584-7783-4DCE-B848-457C21C80D1D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1730 AFravel 1f", "1730 AFravel 1f\1730 AFravel 1f.csproj", "{C5DFB3D2-9038-4B77-AAFC-A60C50D7B384}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{5D196584-7783-4DCE-B848-457C21C80D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D196584-7783-4DCE-B848-457C21C80D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D196584-7783-4DCE-B848-457C21C80D1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5DFB3D2-9038-4B77-AAFC-A60C50D7B384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5DFB3D2-9038-4B77-AAFC-A60C50D7B384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5DFB3D2-9038-4B77-AAFC-A60C50D7B384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5DFB3D2-9038-4B77-AAFC-A60C50D7B384}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
