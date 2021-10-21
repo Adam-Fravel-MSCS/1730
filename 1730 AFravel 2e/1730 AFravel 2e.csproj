@@ -52,6 +52,7 @@
     <Compile Include="frmLogicalOperators.Designer.cs">
       <DependentUpon>frmLogicalOperators.cs</DependentUpon>
     </Compile>
+    <Compile Include="LogicalOperations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmLogicalOperators.resx">

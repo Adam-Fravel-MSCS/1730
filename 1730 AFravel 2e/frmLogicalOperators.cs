@@ -39,13 +39,15 @@ namespace _1730_AFravel_2e
             // 01 subtotal >= 250 && subtotal < 500
             decimal subtotal = Convert.ToDecimal(input01aTextBox.Text);
             result01TextBox.Text = (
-                subtotal >= 250 && subtotal < 500
+                //subtotal >= 250 && subtotal < 500
+                LogicalOperations.q01(subtotal)
                 ).ToString();
 
             // 02 timeInService <= 4 || timeInService >= 12
             int timeInService = Convert.ToInt32(input02aTextBox.Text);
             result02TextBox.Text = (
-                timeInService <= 4 || timeInService >= 12
+                //timeInService <= 4 || timeInService >= 12
+                LogicalOperations.q02(timeInService)
                 ).ToString();
 
             // 03 - 06 initialization
@@ -55,28 +57,32 @@ namespace _1730_AFravel_2e
             // 03 isValid == true && counter++ < years
             int counter = Convert.ToInt32(input03bTextBox.Text);
             result03TextBox.Text = (
-                isValid == true && counter++ < years
+                //isValid == true && counter++ < years
+                LogicalOperations.q03(isValid, years, counter)
                 ).ToString();
             result03bTextBox.Text = counter.ToString();
 
             // 04 isValid == true & counter++ < years
             counter = Convert.ToInt32(input03bTextBox.Text);
             result04TextBox.Text = (
-                isValid == true & counter++ < years
+                //isValid == true & counter++ < years
+                LogicalOperations.q04(isValid, years, counter)
                 ).ToString();
             result04bTextBox.Text = counter.ToString();
 
             // 05 isValid == true || counter++ < years
             counter = Convert.ToInt32(input03bTextBox.Text);
             result05TextBox.Text = (
-                isValid == true || counter++ < years
+                //isValid == true || counter++ < years
+                LogicalOperations.q05(isValid, years, counter)
                 ).ToString();
             result05bTextBox.Text = counter.ToString();
 
             // 06 isValid == true | counter++ < years
             counter = Convert.ToInt32(input03bTextBox.Text);
             result06TextBox.Text = (
-                isValid == true | counter++ < years
+                //isValid == true | counter++ < years
+                LogicalOperations.q06(isValid, years, counter)
                 ).ToString();
             result06bTextBox.Text = counter.ToString();
 
@@ -86,7 +92,8 @@ namespace _1730_AFravel_2e
             DateTime date = Convert.ToDateTime(input07cTextBox.Text);
             isValid = Convert.ToBoolean(input07dTextBox.Text);
             result07TextBox.Text = (
-                date > startDate && date < expirationDate || isValid == true
+                //date > startDate && date < expirationDate || isValid == true
+                LogicalOperations.q07(date, startDate, expirationDate, isValid)
                 ).ToString();
 
             // 08 ((thisYTD > lastYTD) || empType=="Part time") && startYear < currentYear 
@@ -96,14 +103,16 @@ namespace _1730_AFravel_2e
             int startYear = Convert.ToInt32(input08dTextBox.Text);
             int currentYear = Convert.ToInt32(input08eTextBox.Text);
             result08TextBox.Text = (
-                ((thisYTD > lastYTD) || empType == "Part time") && startYear < currentYear
+                //((thisYTD > lastYTD) || empType == "Part time") && startYear < currentYear
+                LogicalOperations.q08(thisYTD, lastYTD, empType, startYear, currentYear)
                 ).ToString();
 
             // 09 !(counter++ >= years)
             counter = Convert.ToInt32(input09aTextBox.Text);
             years = Convert.ToInt32(input09bTextBox.Text);
             result09TextBox.Text = (
-                !(counter++ >= years)
+                //!(counter++ >= years)
+                LogicalOperations.q09(counter, years)
                 ).ToString();
             result09bTextBox.Text = counter.ToString();
 
@@ -113,7 +122,8 @@ namespace _1730_AFravel_2e
             int c = Convert.ToInt32(input10cTextBox.Text);
             int d = Convert.ToInt32(input10dTextBox.Text);
             result10TextBox.Text = (
-                a > b && (b < c || c < d)
+                //a > b && b < c || c < d
+                LogicalOperations.q10(a, b, c, d)
                 ).ToString();
             //bool v = a > b;
             //bool w = b < c;

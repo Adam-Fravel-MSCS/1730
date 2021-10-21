@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1730 AFravel 2d", "1730 AFr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1730 AFravel 2e", "1730 AFravel 2e\1730 AFravel 2e.csproj", "{3DB2616E-2718-4B25-96C2-C184E0A52CD1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1730 AFravel 2e Unit Tests", "1730 AFravel 2e Unit Tests\1730 AFravel 2e Unit Tests.csproj", "{46DFDBD3-1168-4A73-8CF3-5C08D65F0B9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{3DB2616E-2718-4B25-96C2-C184E0A52CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DB2616E-2718-4B25-96C2-C184E0A52CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DB2616E-2718-4B25-96C2-C184E0A52CD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46DFDBD3-1168-4A73-8CF3-5C08D65F0B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46DFDBD3-1168-4A73-8CF3-5C08D65F0B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46DFDBD3-1168-4A73-8CF3-5C08D65F0B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46DFDBD3-1168-4A73-8CF3-5C08D65F0B9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
